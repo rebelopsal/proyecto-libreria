@@ -1,0 +1,308 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Cormorant Garamond', serif;
+    background-color:#293e50;
+    margin: 0;
+}
+.contenedor{
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+}
+/*Cabecera*/
+
+header{
+    width:100%;
+    height:200px;
+    background-color:#F0F8FF ;
+}
+
+.logo{
+    padding: 30px 0;
+}
+
+.logo img{
+    width: 100px;
+    display: block;
+    margin:auto;
+}
+
+.manu{
+    
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu a{
+     
+     float: left;
+     display: block;
+     color: #DB7093;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+}
+
+.menu a:hover{
+    color: #9a48a1;
+}
+
+/*Fin de cabecera*/
+/*Inicio de banner principal*/
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image:url(bible-56a1e2d15f9b58b7d0c4419a.webp);
+     background-position: center;
+     background-size: cover;
+}
+
+.banner > div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(209, 219, 189, 0.5);
+}
+
+.llamada-accion{
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}
+
+.llamada-accion p{
+    font-size: 19px;
+    color:#0b3d3d;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.llamada-accion h2{
+     font-size: 42px;
+     color: #FFF5EE;
+     width: 100%;
+     padding: 45px 0;
+     background-color:rgba(209, 219, 189, 0.5);
+     max-width: 470px;
+}
+
+.llamada-accion a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #0b3d3d;
+    padding: 10px 50px;
+    background-color: rgb(233, 150, 122);
+    margin-top: 40px;
+
+    transition:all 0.3s ease-in-out;
+}
+
+.llamada-accion a:hover{
+    background-color: #c44bc4;
+}
+
+/* Fin de banner*/
+/*Inicio de Bienvenida*/
+
+.bienvenida{
+    width: 100%;
+    background-color: aliceblue;
+    margin: 2px;
+    color: #0b3d3d;
+    text-align: center;
+}
+
+.bienvenida h3{
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+.bienvenida p{
+    font-size: 18px;
+    padding-bottom: 35px;
+    line-height: 1.7em;
+    margin: 0 auto;
+    max-width: 370px;
+}
+/*Fin de bienvenida*/
+/*Inicio de productos*/
+
+ .productos{
+     padding-bottom: 80px;
+ }
+
+ .productos > .contenedor{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     background-color: aliceblue;
+     
+ }
+
+ .biblias{
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+ .biblias h4{
+     font-size: 25px;
+     margin-top: 20px;
+     
+ }
+
+ .biblias img{
+     width: 100%;
+     margin-right: 50px;
+     margin-top: 20px;
+ }
+
+ .biblias-estudios{
+     width: 100%;
+     max-width: 390px;
+     text-align: center;
+ }
+
+ .biblias-estudios h5{
+     font-size: 25px;
+     margin-top: 20px;
+     
+ }
+
+ .biblias-estudios img{
+     width: 100%;
+     margin-left: 0.40px;
+     margin-top: 20px;
+ }
+
+ .libros{
+     width: 100%;
+     max-width: 400px;
+     text-align: center;
+ }
+
+ .libros h6{
+     font-size:25px;
+     margin-top: 20px;
+     
+ }
+    
+ .libros img{
+     width: 100%;
+     max-height: none;
+     margin-right: 50px;
+     margin-top: 20px;
+ }
+
+ .decoracion{
+     width: 100%;
+     max-width: 390px;
+     text-align: center;
+     
+ }
+
+ .decoracion h6{
+     font-size: 25px;
+     margin-top: 20px;
+ }
+
+ .decoracion img{
+     width: 100%;
+     margin-left: 0.40px;
+     margin-top: 20px;
+ }
+
+ .pulsera{
+     width: 100%;
+     max-width: 400px;
+     text-align: center;
+     
+ }
+
+ .pulsera h6{
+     font-size: 25px;
+     margin-top: 20px;
+     
+ }
+
+ .pulsera img{
+     width: 100%;
+     margin-top: 20px;
+     
+ }
+
+ .remeras{
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+ }
+
+ .remeras h6{
+     font-size: 25px;
+     margin-top: 20px;
+ }
+
+ .remeras img{
+     width: 100%;
+     margin-top: 20px;
+ }
+
+
+ /* Fin de productos*/
+ /* Inicio de pie de pagina*/
+
+ .novedade h1{
+     font-size:30px;
+     color: #db7093;
+ }
+
+ .center-footer{
+     background-color: aliceblue;
+ }
+ .center-footer .contenedor h1{
+     font-size: 20px;
+ }
+
+ .center-footer .widget{
+     display: inline-block;
+     flex-direction: row;
+     flex-wrap: wrap;
+     
+ }
+
+.center-footer .widget img{
+    width: 270px;
+    margin-left: 10px;
+}
+
+.center-footer .widget p{
+    font-size: 20px;
+    color: rgb(1, 1, 15);
+}
+
+.bottom-footer{
+    background-color:aliceblue;
+    height: 35px;
+}
+
+.bottom-footer{
+    color: rgb(2, 2, 34);
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
